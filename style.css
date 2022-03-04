@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+    padding-top: 25px;
+}
+
+.container-p-header {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    color: white;
+}
+
+#produtos {
+    width: 100%;
+    min-height: 1000px;
+    overflow: hidden;
+    background-color: violet;
+}
+
+#contatos {
+    width: 100%;
+    height: 350px;
+    background-color: lightcoral;
+}
+
+.conteudo {
+    width: 1400px;
+    height: inherit; /*herda o tamanho do pai dele */
+    margin: auto;
+    /* background-color: lightblue; */
+}
+
+#contatos .conteudo {
+    /* background-color: lightgreen; */
+}
+
+.card-produto {
+    width: 350px; 
+    height: 450px;
+    background-color: indigo;
+    float: left;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
